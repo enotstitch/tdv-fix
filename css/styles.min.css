@@ -3504,6 +3504,7 @@ a.plyr__control:before {
   border-radius: 20px;
   padding: 20px;
   max-width: 30%;
+  width: 100%;
   background-color: #eccfff;
   -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
@@ -3537,6 +3538,11 @@ a.plyr__control:before {
 }
 .package__item--bach::before {
   background-image: url(../img/icons/bach.webp);
+}
+.package__item--children::before {
+  background-image: url(../img/icons/children.webp);
+  width: 24px;
+  height: 35px;
 }
 .package__item--fireworks::before {
   top: -4px;
